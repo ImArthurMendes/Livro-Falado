@@ -61,3 +61,4 @@ function voltarFaixa (){
 botaoPlayPause.addEventListener('click', tocarOuPausar)
 botaoAvancar.addEventListener('click', proximaFaixa)
 botaoVoltar.addEventListener('click', voltarFaixa)
+

@@ -6,6 +6,7 @@ body {
   flex-direction: column;
   align-items: center;
   color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .container-aplicativo {
@@ -19,12 +20,14 @@ button {
   color: inherit;
   border: none;
   cursor: pointer;
+  font-family: 'Inter', sans-serif;
 }
 
 .music-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Inter', sans-serif;
 }
 
 #informacoes-faixa {
@@ -47,4 +50,18 @@ button {
   width: 100%;
   display: flex;
   justify-content: space-around;
+}
+
+main {
+  height: 20vh;
+}
+
+#copyright {
+  color: #ffffff;
+  padding: 24px;
+  text-align: center;
+}
+
+#copyright a {
+  color: #ffffff;
 }
